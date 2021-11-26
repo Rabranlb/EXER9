@@ -6,9 +6,10 @@ public class TestaCarro {
         carro.setAno(2021);
         carro.setPlaca("SBL201 A");
 
-        System.out.println("Cliente: Rafael Leal");
-        System.out.println("Marca: " + carro.getMarca());
-        System.out.println("Modelo: " + carro.getModelo());
-        System.out.println("Placa: " + carro.getPlaca());
+        System.out.println("CLIENTE -> Rafael Leal");
+        System.out.println("MARCA -> " + carro.getMarca());
+        System.out.println("MODELO -> " + carro.getModelo());
+        System.out.println("PLACA -> " + carro.getPlaca());
+        System.out.println("ANO -> " + carro.getAno());
     }
 }
